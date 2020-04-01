@@ -6,6 +6,8 @@ Knowledge base template for Jekyll. Browse through a [live demo](https://orange-
 
 Base was made by [CloudCannon](http://cloudcannon.com/), the Cloud CMS for Jekyll.
 
+**The template was extended by Fresh Automations. A [HOWTO set up as a theme](HOWTO_THEME.md) was also added.**
+
 Find more templates, themes and step-by-step Jekyll tutorials at [CloudCannon Academy](https://learn.cloudcannon.com/).
 
 ## Features
