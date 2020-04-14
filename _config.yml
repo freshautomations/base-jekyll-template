@@ -4,10 +4,12 @@
 title: Base
 url: "https://orange-ape.cloudvent.net/"
 baseurl:
-search_results_page: "search/"
 google_analytics_key:
 disqus_shortname:
 newsletter_action:
+
+# Relative link to the search page. See also `permalink` in search.html
+#search_results_link: "search/"
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /assets/images/siteicon.png
@@ -71,6 +73,22 @@ defaults:
       body_class: "show_hero_search"
       hero_search_title: "Tutorials"
       hero_search_tagline: "Everything you need to know about running our software."
+  -
+    scope:
+      path: "search.html"
+    values:
+      title: Search
+      permalink: /search/
+  -
+    scope:
+      path: "faq.html"
+    values:
+      permalink: /faq/
+  -
+    scope:
+      path: "videos.html"
+    values:
+      permalink: /videos/
 
 # -----------
 # CloudCannon

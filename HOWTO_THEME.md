@@ -108,6 +108,15 @@ executed at the end of the header, after jQuery was imported. (So you can use jQ
 Custom CSS code can be added by adding file `_sass/custom-styles.scss`. You can add additional files into `assets/css` as
 long as you import them in the `custom-styles.scss` file.
 
+## Modifying the search result page link
+The search box defaults to call the `/search/` page for the search results. (The `search.html` file renders into that URL.)
+If you want to change where the search box lands after someone searched a string, you can do it with `search_results_link`
+to your `_config.yml`:
+
+```yaml
+search_results_link: "/my-custom-search-relative-link"
+```
+
 ## An example site
 The site [Rust Example](https://rust-examples.com) was built using this theme. You can find its source code on
 [GitHub](https://github.com/rust-examples/rust-examples.com). It also has a good example on how to import additional
