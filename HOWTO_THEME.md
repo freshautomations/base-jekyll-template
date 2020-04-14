@@ -117,6 +117,11 @@ to your `_config.yml`:
 search_results_link: "/my-custom-search-relative-link"
 ```
 
+## Using the template with GitHub Pages
+GitHub Pages uses an old version of Jekyll that does not properly redirect using `permalink`. This means that if you
+want to deploy your site using GitHub Pages, make sure that instead of creating a `search.html` file, it is instead in
+`search/index.html`. The same with `faq.html` and `videos.html`.
+
 ## An example site
 The site [Rust Example](https://rust-examples.com) was built using this theme. You can find its source code on
 [GitHub](https://github.com/rust-examples/rust-examples.com). It also has a good example on how to import additional
