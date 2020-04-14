@@ -4,7 +4,7 @@
 title: Base
 url: "https://orange-ape.cloudvent.net/"
 baseurl:
-search_results_page: search/
+search_results_page: "search/"
 google_analytics_key:
 disqus_shortname:
 newsletter_action:
